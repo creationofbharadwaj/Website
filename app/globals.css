@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #D4A574;
+  --primary-dark: #B8956A;
+  --secondary: #2D5A27;
+  --cream: #FAF7F2;
+}
+
+body {
+  @apply bg-cream text-gray-800 antialiased;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
